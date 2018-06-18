@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>lk_authors - app inset</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Fontastic Custom icon font-->
+    <link rel="stylesheet" href="css/fontastic.css">
+    <link rel="stylesheet" href="fonts/icon-font/material_icons.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <!-- Google fonts - Poppins -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,700">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.blue.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/perfect-scrollbar.css">
+    <link rel="stylesheet" href="css/dropzone.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/media.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="favicon.png">
+    <!-- Tweaks for older IEs-->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container-fluid">
+                <div class="navbar-holder d-flex">
+                    <div class="navbar-header">
+                        <a href="index.html">
+                            <img src="img/logo.png" alt="Логотип">
+                        </a>
+                    </div>
+                    <div class="header_right d-flex">
+                        <div class="balance_box">
+                            <a href="finances.html" class="rubles">Баланс: 11110₽</a>
+                            <a href="finances.html" class="bonuses">101<i class="material-icons">card_giftcard</i></a>
+                        </div>
+                        <a href="#" class="number">+7 (812) 409-31-63</a>
+                    </div>
+                    <a id="toggle-btn" href="#" class="menu-btn active">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                     </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="page-content d-flex">
+        <nav class="side-navbar">
+            <a id="toggle-btn" href="#" class="menu-btn active">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <div class="sidebar-header d-flex">
+                <div class="avatar dropdown">
+                    <img src="img/harek.jpg" alt="..." class="img-fluid rounded-circle">
+                </div>
+                <div class="title">
+                    <h1 class="h4">Завгородний</h1>
+                    <p>Антон</p>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Что вы ищете?" class="form-control">
+                <button type="button">
+                    <i class="icon-search"></i>
+                </button>
+            </div>
+            <ul class="list-unstyled">
+                <li class="new_app"><a href="new_app.html"><i class="material-icons">add_box</i>Новый заказ</a></li>
+                <li><a href="news.html"><i class="material-icons">grade</i>События<span class="badge">10</span></a></li>
+                <li class="active"><a href="index.html"><i class="material-icons">home</i>Мои заказы</a></li>
+                <li><a href="messages.html"><i class="material-icons">message</i>Сообщения<span class="badge">10</span></a></li>
+                <li><a href="finances.html"><i class="material-icons">account_balance_wallet</i>Финансы</a></li>
+                <li><a href="make_money.html"><i class="material-icons">attach_money</i>Заработай</a></li>
+                <li><a href="faq.html"><i class="material-icons">question_answer</i>FAQ</a></li>
+                <li><a href="profile.html"><i class="material-icons">account_box</i>Профиль</a></li>
+                <!-- <li><a href="login.html"><i class="material-icons">exit_to_app</i>Выйти</a></li> -->
+            </ul>
+        </nav>
+        <div class="content-inner">
+            <div class="area d-flex">
+                <div class="new_app col-xl-9">
+                    <div class="card">
+                        <div class="card-header d-flex align-items-center">
+                            <h3 class="h4">Для оформления заказа заполните, пожалуйста, поля формы</h3>
+                        </div>
+                        <div class="card-body">
+                            <form action="#" class="row">
+                                <div class="form-group col-xl-5">
+                                    <label class="form-control-label">Тип работы<span>*</span></label>
+                                    <div class="select">
+                                        <select name="account" class="form-control">
+                                            <option selected="">Выбрать тип работы</option>
+                                            <option>option 2</option>
+                                            <option>option 3</option>
+                                            <option>option 4</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group col-xl-7">
+                                    <label class="form-control-label">Предмет<span>*</span></label>
+                                    <input type="text" value="" class="form-control">
+                                </div>
+                                <div class="form-group col-xl-5">
+                                    <label class="form-control-label">Тема работы<span>*</span></label>
+                                    <input type="text" value="" class="form-control">
+                                </div>
+                                <div class="form-group col-xl-2">
+                                    <label class="form-control-label">Кол-во страниц</label>
+                                    <input type="text" value="" class="form-control">
+                                </div>
+                                <div class="form-group col-xl-2">
+                                    <label class="form-control-label">Шрифт</label>
+                                    <div class="select">
+                                        <select name="account" class="form-control">
+                                            <option selected="">14pt</option>
+                                            <option>12pt</option>
+                                            <option>Не выбрано</option>
+                                            <option>Другой</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group col-xl-3">
+                                    <label class="form-control-label">Интервал</label>
+                                    <div class="select">
+                                        <select name="account" class="form-control">
+                                            <option selected="">Полуторный</option>
+                                            <option>Одинарный</option>
+                                            <option>Не выбрано</option>
+                                            <option>Другой</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group col-xl-5">
+                                    <label class="form-control-label">Пояснения</label>
+                                    <textarea class="form-control"></textarea>
+                                </div>
+                                <div class="form-files col-xl-7 d-flex">
+                                    <div class="work-message-form">
+                                        <div class="work-message-photo js-dropzone dz-clickable">
+                                            <div class="dz-message needsclick">
+                                                <i class="material-icons">attach_file</i>
+                                                <span class="label">Перетащите сюда файлы или нажмите, чтобы загрузить.</span>
+                                                <br> Расширения доступные для загрузки:
+                                                <b>7zip</b> , <b>doc</b> , <b>docx</b> , <b>gif</b> , <b>htm</b> , <b>html</b> , <b>jpeg</b> , <b>jpg</b> , <b>pdf</b> , <b>png</b>
+                                            </div>
+                                            <div class="preview-dropzone" style="display:none">
+                                                <div class="work-message-photo-item">
+                                                    <a href="" class="work-message-photo-delete" onclick="popup.confirm($(this)); return false;" data-popup-ajax-remove=".work-message-photo-item" data-popup-title="Удалить файл?" data-popup-confirm="Удалить" data-popup-text="Удалить файл с сервера без возможности восстановления?" style="display:block;"><img src="img/photo-del.png" alt="x"></a>
+                                                    <img data-dz-thumbnail="" src="/images/ajax-loader.gif" style="max-width: 100px; max-height: 100px;" alt="">
+                                                    <div class="work-message-photo-upload"><span data-dz-uploadprogress=""></span></div>
+                                                    <div data-dz-errormessage="" style="color:rgb(255, 86, 71);    line-height: 12px;"></div>
+                                                    <div class="work-message-photo-size"><span data-dz-size=""></span></div>
+                                                    <div class="work-message-photo-text"><span data-dz-name=""></span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="card_footer">
+                            <button type="submit" value="Signin" class="btn">Оформить заказ</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner_block col-xl-3">
+                    <img src="img/cat.jpg" alt="Баннер" style="height: 350px;">
+                </div>
+                <footer>
+                    <div class="container-fluid">
+                        <div class="d-flex align-items-center">
+                            <div class="copy d-flex">
+                                <p>2017 © Студсервис
+                                    <br> Все права защищены.</p>
+                                <a href="https://studservis.ru/politika-konfidencialnosti" target="_blank" rel="nofollow">Политика конфиденциальности</a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <ul aria-labelledby="notifications" class="dropdown-menu">
+                    <li>
+                        <a rel="nofollow" href="profile.html" class="dropdown-item d-flex">Профиль</a>
+                    </li>
+                    <li>
+                        <a rel="nofollow" href="login.html" class="dropdown-item d-flex">Выйти</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="vendor/popper.js/umd/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"></script>
+    <script src="vendor/jquery-validation/jquery.validate.min.js"></script>
+    <script src="js/mask-input.js"></script>
+    <script src="js/textarea_plugin.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/dropzone.js"></script>
+    <script src="js/perfect-scrollbar.jquery.min.js"></script>
+    <script src="js/snackbar.js"></script>
+    <script src="js/front.js"></script>
+</body>
+
+</html>

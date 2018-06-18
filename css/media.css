@@ -1,0 +1,510 @@
+@media screen and (max-width: 767px) {
+    .btn-price {
+        font-size: .7rem;
+    }
+    /*main*/
+    .navbar-holder {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        position: relative;
+    }
+
+    .subhead {
+        padding: 30px 0px 0px;
+    }
+
+    .navbar-header{
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-content: baseline;
+        -ms-align-items: baseline;
+        align-items: baseline;
+    }
+
+    .navbar-header img {
+        width: 150px;
+        height: auto;
+    }
+
+    .header_right {
+        flex-direction: row-reverse;
+        flex-grow: 1;
+        align-items: flex-end;
+        margin: 10px 0px 0px;
+        width: 100%;
+    }
+
+    .header.show,
+    .header.show .navbar {
+        min-height: 35px;
+    }
+
+    .header.show .header_right {
+        transition: 0.2s;
+        display: none;
+    }
+
+    header,
+    .navbar {
+        min-height: 75px;
+    }
+
+    .balance_box {
+        margin: 0px;
+    }
+
+    .balance_box a {
+        padding: 0px 5px;
+    }
+
+    .number {
+        margin: 0;
+        font-size: 0.8rem;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .nav_sub {
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+    }
+
+    .nav_sub--item {
+        padding: 10px 10px;
+    }
+
+    .app_nav .item {
+        border-right: 0;
+    }
+
+    .app_left {
+        -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1), -1px 0 2px rgba(0, 0, 0, 0.05);
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1), -1px 0 2px rgba(0, 0, 0, 0.05);
+        border-bottom: 1px solid #eee;
+        position: relative;
+        z-index: 10;
+    }
+
+    .app_right {
+        min-height: 200px;
+    }
+
+    .work_info .work_theme {
+        margin-bottom: 15px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .app_arrow {
+        opacity: 1;
+    }
+
+    .modal_files:before {
+        display: none;
+    }
+
+    .files_box {
+        margin-bottom: 20px;
+    }
+
+    .modal_files {
+        justify-content: flex-start;
+        align-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .modal_price {
+        padding: 40px 0px 20px;
+    }
+
+    .offer_text {
+        padding: 0px 15px;
+        text-align: center;
+    }
+
+    .ps-container.ps-active-x>.ps-scrollbar-x-rail,
+    .ps-container.ps-active-y>.ps-scrollbar-y-rail {
+        display: none;
+        background-color: transparent;
+    }
+
+    footer .copy {
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+
+    /*faq*/
+    .accordion li {
+        margin: 0px;
+    }
+
+    /*finances*/
+    .card_subheader {
+        flex-direction: column;
+    }
+
+    .card_subheader a {
+        flex: 1 0 100%;
+    }
+
+    /*messages*/
+    .messages {
+        flex-direction: column;
+        position: relative;
+    }
+
+    .mess_avatar {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: flex-end;
+        width: auto;
+        padding: 0px 0px 10px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .mess_avatar img {
+        margin: 0;
+        max-width: 32px;
+        max-height: 32px;
+    }
+
+    .avatar_in {
+        width: 20px;
+        height: 20px;
+        margin: 8px 0px 0px;
+    }
+
+    .mess_avatar .mess_number {
+        margin: 0px 10px;
+    }
+
+    .message_text {
+        width: 90%;
+        max-width: 90%;
+        margin: 8px 0px 0px;
+    }
+
+    .messages_right {
+        height: auto;
+        width: 100%;
+        margin: 10px 0px 0px;
+        position: static;
+    }
+
+    .mess_type {
+        max-width: 100%;
+        font-size: 12px;
+    }
+
+    .news-item_header {
+        height: 80px;
+        padding: 10px 0 10px;
+    }
+
+    .mess_time {
+        top: 15px;
+        right: 15px;
+    }
+    .messages_right .сircle_not_read {
+        top: -2px;
+        right: -2px;
+    }
+
+    /*chat*/
+    .top_info {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .top_left {
+        text-align: center;
+    }
+
+    .top_right {
+        display: flex;
+    }
+
+    .top_left,
+    .top_right {
+        padding: 0px 15px;
+    }
+
+    .card_chat .chat_info {
+        position: static;
+        transform: none;
+        width: auto;
+    }
+
+    .card_chat .card-header {
+        justify-content: space-between;
+    }
+    .card_chat .card-header h3 {
+        font-size: 11px;
+    }
+
+    #search_message {
+        top: 50px;
+    }
+
+    #search_message .buttons{
+        top: calc(100% + 20px);
+        background-color: #fff;
+        padding: 10px 15px;
+        right: 0;
+    }
+
+    .chat-body {
+        padding: 10px 0px;
+    }
+
+    .card_chat {
+        margin: 20px 0px 0px;
+    }
+
+    .ch_message>img {
+        display: none;
+    }
+
+    .ch_message_text>div {
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    .ch_message_text {
+        margin-left: 0;
+        max-width: 100%;
+    }
+
+    .ch_message_text .file {
+        align-items: flex-start;
+    }
+
+    .ch_message_text .file .file_icons {
+        padding: 0;
+        text-align: right;
+    }
+
+    .ch_message_text .file .file_icons a {
+        margin-left: 0;
+        margin-right: 8px;
+    }
+
+    .file .file-inset {
+        padding: 0px;
+    }
+
+    .ch_message {
+        margin-bottom: 15px;
+    }
+
+    .ch_message .file>div {
+        margin: 5px 0px;
+    }
+
+    .chat-footer {
+        padding: 10px 5px;
+    }
+
+    .chat-footer textarea {
+        font-size: 12px;
+        height: 40px;
+        padding-right: 10px;
+    }
+
+    .chat-footer .attach_files {
+        margin: 0px 5px;
+        width: 10%;
+    }
+    .chat-footer .btn_send {
+        margin: 0px 5px;
+        width: 10%;
+    }
+
+    .btn_send,
+    .attach_files {
+        height: 34px;
+    }
+
+    /*menu*/
+    nav.navbar {
+        padding: 10px 0px 10px;
+        height: auto;
+        position: fixed;
+        width: 100%;
+        z-index: 9999;
+    }
+    nav.navbar .container-fluid {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .side-navbar #toggle-btn {
+        display: none;
+    }
+
+    .navbar-holder #toggle-btn {
+        position: absolute;
+        left: auto;
+        right: 0;
+        top: 4px;
+    }
+    nav.side-navbar {
+        padding-top: 0;
+    }
+
+    nav.side-navbar,
+    nav.side-navbar.shrinked {
+        position: fixed;
+        z-index: 9000;
+        transition: 0.5s;
+        top: 0;
+        height: 100vh;
+        padding: 90px 0px 0px;
+    }
+
+    .content-inner.active,
+    .content-inner {
+        width: 100%;
+        margin: 0px;
+        position: relative;
+    }
+
+    .content-inner.active {
+        overflow: hidden;
+    }
+
+    .content-inner:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: auto;
+        left: 0;
+        bottom: 0;
+        opacity: 0;
+        width: 0%;
+        height: 0%;
+        -webkit-transition: opacity .7s ease-out;
+        -moz-transition: opacity .7s ease-out;
+        transition: opacity .7s ease-out;
+    }
+
+    .content-inner.active:before {
+        content: '';
+        position: absolute;
+        z-index: 8000;
+        background-color: rgba(0, 0, 0, 0.6);
+        top: 0px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 1;
+        -webkit-transition: opacity .7s ease-out;
+        -moz-transition: opacity .7s ease-out;
+        transition: opacity .7s ease-out;
+    }
+
+    .area {
+        padding: 40px 0px 120px;
+    }
+
+    /*scroll element*/
+    .ps-container {
+        z-index: 1;
+    }
+
+    /*______________________ make_money _________________________*/
+    .make-box {
+        margin: 0px 0px 25px;
+    }
+    nav.tabs_nav {
+        flex-direction: column;
+    }
+    nav.tabs_nav>a {
+        display: block;
+        flex: 0 0 100%;
+    }
+    .tabs_instruments .form-group {
+        margin: 30px 0px 30px;
+    }
+    .tabs_instruments .form-control {
+        margin: 20px 0px 0px;
+    }
+
+    .tabs-item.bonus_block {
+        flex-direction: column;
+    }
+    .social-icon {
+        margin: 20px 0px 0px;
+    }
+
+    .stats_block_cols {
+        flex-direction: column;
+    }
+    .stats-right {
+        margin-top: 15px;
+        flex: 0 0 100%;
+        padding: 20px 15px;
+    }
+    .earned-box {
+        position: static;
+        transform: translate(0);
+    }
+
+    .owl-carousel-slide {
+        font-size: 0.8rem;
+    }
+
+    .owl-carousel-slide h3 {
+        font-size: 1.2rem;
+    }
+
+    /*______________________ profile ____________________________*/
+    .profile .card-body {
+        padding: 20px 15px;
+    }
+
+    .profile form {}
+
+    /*______________________ modal ______________________________*/
+    .modal {
+        top: calc(50% - 150px);
+    }
+
+    /*______________________ messages-snack ______________________*/
+
+    .messages.messages-snack .mess_avatar{
+        width: 100%;
+    }
+
+    .messages.messages-snack .mess_number{
+        font-size: 12px;
+    }
+
+    .messages.messages-snack .mess_avatar img{
+        max-width: 20px;
+        max-height: 20px;
+    }
+
+    .messages.messages-snack .mess_type{
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width: 1023px) {
+    .banner_block {
+        display: none;
+    }
+}

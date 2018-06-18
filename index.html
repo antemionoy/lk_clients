@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>lk_authors</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Fontastic Custom icon font-->
+    <link rel="stylesheet" href="css/fontastic.css">
+    <link rel="stylesheet" href="fonts/icon-font/material_icons.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <!-- Google fonts - Poppins -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,700">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.blue.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/perfect-scrollbar.css">
+    <link rel="stylesheet" href="css/snackbar.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/media.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="favicon.png">
+    <!-- Tweaks for older IEs-->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container-fluid">
+                <div class="navbar-holder d-flex">
+                    <div class="navbar-header">
+                        <a href="index.html">
+                            <img src="img/logo.png" alt="Логотип">
+                        </a>
+                        <a href="#" class="toggle-btn menu-btn active">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                     </a>
+                    </div>
+                    <div class="header_right">
+                        <div class="balance_box">
+                            <a href="finances.html" class="rubles">Баланс: 11110₽</a>
+                            <a href="finances.html" class="bonuses">101<i class="material-icons">card_giftcard</i></a>
+                        </div>
+                        <a href="#" class="number">+7 (812) 409-31-63</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="page-content d-flex">
+        <nav class="side-navbar">
+            <a href="#" class="toggle-btn menu-btn active">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <div class="sidebar-header d-flex">
+                <div class="avatar dropdown">
+                    <img src="img/harek.jpg" alt="..." class="img-fluid rounded-circle">
+                </div>
+                <div class="title">
+                    <h1 class="h4">Завгородний</h1>
+                    <p>Антон</p>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Что вы ищете?" class="form-control">
+                <button type="button">
+                    <i class="icon-search"></i>
+                </button>
+            </div>
+            <ul class="list-unstyled">
+                <li class="new_app"><a href="new_app.html"><i class="material-icons">add_box</i>Новый заказ</a></li>
+                <li><a href="news.html"><i class="material-icons">grade</i>События<span class="badge">10</span></a></li>
+                <li class="active"><a href="index.html"><i class="material-icons">home</i>Мои заказы</a></li>
+                <li><a href="messages.html"><i class="material-icons">message</i>Сообщения<span class="badge">10</span></a></li>
+                <li><a href="finances.html"><i class="material-icons">account_balance_wallet</i>Финансы</a></li>
+                <li><a href="make_money.html"><i class="material-icons">attach_money</i>Заработай</a></li>
+                <li><a href="faq.html"><i class="material-icons">question_answer</i>FAQ</a></li>
+                <li><a href="profile.html"><i class="material-icons">account_box</i>Профиль</a></li>
+                <!-- <li><a href="login.html"><i class="material-icons">exit_to_app</i>Выйти</a></li> -->
+            </ul>
+        </nav>
+        <div class="content-inner">
+            <div class="area d-flex">
+                <div class="application_block col-xs-12 col-xl-9">
+                    <div class="subhead">
+                        <div class="container-fluid">
+                            <div class="row align-items-center justify-content-between">
+                                <div class="nav_sub d-flex">
+                                    <a href="#" class="nav_sub--item work">
+                                    В работe
+                                    <span>101</span>
+                                    </a>
+                                    <a href="#" class="nav_sub--item complete active">
+                                    Завершенные
+                                    <span>123</span>
+                                    </a>
+                                    <a href="#" class="nav_sub--item complete">
+                                    Не оплачен
+                                    <span>123</span>
+                                    </a>
+                                    <a href="#" class="nav_sub--item complete">
+                                    На согласовании
+                                    <span>123</span>
+                                    </a>
+                                </div>
+                                <!-- <a href="#" class="btn_new_app">Новый Заказ</a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <!-- app -->
+                        <div class="application row">
+                            <div class="application_desc col-xl-12 bg-white has-shadow">
+                                <div class="app_nav row">
+                                    <div class="col-12 col-xl-4 col-sm-6">
+                                        <div class="app_status app_status_new item d-flex">
+                                            <div class="icon">
+                                                <i class="icon-padnote"></i>
+                                            </div>
+                                            <div class="title">
+                                                <p>Новый</p>
+                                                <p>№ 123456 <span>(от 10.10.2017г)</span></p>
+                                                <div class="progress">
+                                                    <div role="progressbar" style="width: 25%; height: 4px;" aria-valuenow="{#val.value}" aria-valuemin="0" aria-valuemax="100" class="progress-bar"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-xl-4 col-sm-6">
+                                        <div class="item d-flex">
+                                            <div class="app_mail">
+                                                <a href="#" class="d-flex align-items-center">
+                                                    <div class="icon bg-red">
+                                                        <i class="fa fa-envelope-o"></i>
+                                                        <span class="badge bg-orange">10</span>
+                                                    </div>
+                                                    <div class="title">
+                                                        <p>Новое</p>
+                                                        <p>сообщение в чате</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-xl-4 col-sm-6">
+                                        <div class="item d-flex">
+                                            <div class="app_chek">
+                                                <a href="#" class="d-flex align-items-center">
+                                                    <div class="icon bg-green">
+                                                        <i class="icon-bill"></i>
+                                                    </div>
+                                                    <div class="title">
+                                                        <p>Файлы заказа </p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="app_inset row">
+                                    <div class="app_left col-xl-8">
+                                        <div class="work_info">
+                                            <a href="app_in.html" class="work_theme h2">Дипломная работа<span>История развивающихся стран.</span></a>
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <!-- <p class="work_subj">Предмет:<span>История</span></p> -->
+                                                <p>Шрифт:<span>14pt, Полуторный</span></p>
+                                                <p>Кол-во страниц:<span>300</span></p>
+                                                <p>% Антиплагиата:<span>70%</span></p>
+                                                <p>Срок выполнения:<span>40 дней</span>
+                                                    <small>с момента оплаты</small>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="app_text">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi cumque mollitia dolor quidem. Totam tenetur, deleniti iure, porro labore quidem autem sint. Quod consequatur illo, eum non nam tempore perspiciatis delectus velit, adipisci soluta at esse sunt magnam perferendis architecto ipsum numquam consequuntur inventore. Natus ducimus nam beatae soluta minus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi cumque mollitia dolor quidem. Totam tenetur, deleniti iure, porro labore quidem autem sint. Quod consequatur illo, eum non nam tempore perspiciatis delectus velit, adipisci soluta at esse sunt magnam perferendis architecto ipsum numquam consequuntur inventore. Natus ducimus nam beatae soluta minus.
+                                            </p>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi cumque mollitia dolor quidem. Totam tenetur, deleniti iure, porro labore quidem autem sint. Quod consequatur illo, eum non nam tempore perspiciatis delectus velit, adipisci soluta at esse sunt magnam perferendis architecto ipsum numquam consequuntur inventore. Natus ducimus nam beatae soluta minus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi cumque mollitia dolor quidem. Totam tenetur, deleniti iure, porro labore quidem autem sint. Quod consequatur illo, eum non nam tempore perspiciatis delectus velit, adipisci soluta at esse sunt magnam perferendis architecto ipsum numquam consequuntur inventore. Natus ducimus nam beatae soluta minus.
+                                            </p>
+                                        </div>
+                                        <a href="#" class="app_arrow">
+                                            <span>развернуть</span>
+                                            <i class="material-icons">keyboard_arrow_up</i>
+                                        </a>
+                                        <div class="app_text_fade"></div>
+                                    </div>
+                                    <div class="app_right col-12 col-xl-4">
+                                        <div class="app_right--inset">
+                                            <div data-icon="t" class="icon">
+                                            </div>
+                                            <p>
+                                                Срок и стоимость работы уточняются
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="modal_files d-flex">
+                                        <div class="files_box manager_files col-12 col-xl-6">
+                                            <h5>Файлы менеджера</h5>
+                                            <div class="file d-flex">
+                                                <div class="col">
+                                                    <img src="img/harek.jpg" alt="">
+                                                </div>
+                                                <div class="file_info col-8 col-xl-8">
+                                                    <span class="file_name">Дипломная работа - история развивающихся стран.</span>
+                                                    <div class="file_status d-flex">
+                                                        <span>10.10.2017 16:30</span>
+                                                        <span>101010кб</span>
+                                                    </div>
+                                                </div>
+                                                <div class="file_icons col-2 col-xl-3">
+                                                    <a href="#" title="отправить на почту" data-toggle="modal" data-target="#exampleModalCenterMail"><i class="material-icons">email</i></a>
+                                                    <a href="#" title="скачать"><i class="material-icons">file_download</i></a>
+                                                </div>
+                                            </div>
+                                            <div class="file d-flex">
+                                                <div class="col">
+                                                    <img src="img/harek.jpg" alt="">
+                                                </div>
+                                                <div class="file_info col-8 col-xl-8">
+                                                    <span class="file_name">Дипломная работа - история развивающихся стран.</span>
+                                                    <div class="file_status d-flex">
+                                                        <span>10.10.2017 16:30</span>
+                                                        <span>101010кб</span>
+                                                    </div>
+                                                </div>
+                                                <div class="file_icons col-2 col-xl-3">
+                                                    <a href="#" title="отправить на почту" data-toggle="modal" data-target="#exampleModalCenterMail"><i class="material-icons">email</i></a>
+                                                    <a href="#" title="скачать"><i class="material-icons">file_download</i></a>
+                                                </div>
+                                            </div>
+                                            <div class="file d-flex">
+                                                <div class="col">
+                                                    <img src="img/harek.jpg" alt="">
+                                                </div>
+                                                <div class="file_info col-8 col-xl-8">
+                                                    <span class="file_name">Дипломная работа - история развивающихся стран.</span>
+                                                    <div class="file_status d-flex">
+                                                        <span>10.10.2017 16:30</span>
+                                                        <span>101010кб</span>
+                                                    </div>
+                                                </div>
+                                                <div class="file_icons col-2 col-xl-3">
+                                                    <a href="#" title="отправить на почту" data-toggle="modal" data-target="#exampleModalCenterMail"><i class="material-icons">email</i></a>
+                                                    <a href="#" title="скачать"><i class="material-icons">file_download</i></a>
+                                                </div>
+                                            </div>
+                                            <div class="file d-flex">
+                                                <div class="col">
+                                                    <img src="img/harek.jpg" alt="">
+                                                </div>
+                                                <div class="file_info col-8 col-xl-8">
+                                                    <span class="file_name">Дипломная работа - история развивающихся стран.</span>
+                                                    <div class="file_status d-flex">
+                                                        <span>10.10.2017 16:30</span>
+                                                        <span>101010кб</span>
+                                                    </div>
+                                                </div>
+                                                <div class="file_icons col-2 col-xl-3">
+                                                    <a href="#" title="отправить на почту" data-toggle="modal" data-target="#exampleModalCenterMail"><i class="material-icons">email</i></a>
+                                                    <a href="#" title="скачать"><i class="material-icons">file_download</i></a>
+                                                </div>
+                                            </div>
+                                            <div class="file d-flex">
+                                                <div class="col">
+                                                    <img src="img/harek.jpg" alt="">
+                                                </div>
+                                                <div class="file_info col-8 col-xl-8">
+                                                    <span class="file_name">Дипломная работа - история развивающихся стран.</span>
+                                                    <div class="file_status d-flex">
+                                                        <span>10.10.2017 16:30</span>
+                                                        <span>101010кб</span>
+                                                    </div>
+                                                </div>
+                                                <div class="file_icons col-2 col-xl-3">
+                                                    <a href="#" title="отправить на почту" data-toggle="modal" data-target="#exampleModalCenterMail"><i class="material-icons">email</i></a>
+                                                    <a href="#" title="скачать"><i class="material-icons">file_download</i></a>
+                                                </div>
+                                            </div>
+                                            <div class="file d-flex">
+                                                <div class="col">
+                                                    <img src="img/harek.jpg" alt="">
+                                                </div>
+                                                <div class="file_info col-8 col-xl-8">
+                                                    <span class="file_name">Дипломная работа - история развивающихся стран.</span>
+                                                    <div class="file_status d-flex">
+                                                        <span>10.10.2017 16:30</span>
+                                                        <span>101010кб</span>
+                                                    </div>
+                                                </div>
+                                                <div class="file_icons col-2 col-xl-3">
+                                                    <a href="#" title="отправить на почту" data-toggle="modal" data-target="#exampleModalCenterMail"><i class="material-icons">email</i></a>
+                                                    <a href="#" title="скачать"><i class="material-icons">file_download</i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="files_box client_files col-12 col-xl-6">
+                                            <h5>Файлы клиента</h5>
+                                            <div class="file d-flex">
+                                                <div class="col-2 col">
+                                                    <img src="img/harek.jpg" alt="">
+                                                </div>
+                                                <div class="file_info col-8 col-xl-8">
+                                                    <span class="file_name">Дипломная работа - история развивающихся стран.</span>
+                                                    <div class="file_status d-flex">
+                                                        <span>10.10.2017 16:30</span>
+                                                        <span>101010кб</span>
+                                                    </div>
+                                                </div>
+                                                <div class="file_icons col-2 col-xl-3">
+                                                    <a href="#" title="отправить на почту" data-toggle="modal" data-target="#exampleModalCenterMail"><i class="material-icons">email</i></a>
+                                                    <a href="#" title="скачать"><i class="material-icons">file_download</i></a>
+                                                </div>
+                                            </div>
+                                            <div class="file d-flex">
+                                                <div class="col-2 col">
+                                                    <img src="img/harek.jpg" alt="">
+                                                </div>
+                                                <div class="file_info col-8 col-xl-8">
+                                                    <span class="file_name">Дипломная работа - история развивающихся стран.</span>
+                                                    <div class="file_status d-flex">
+                                                        <span>10.10.2017 16:30</span>
+                                                        <span>101010кб</span>
+                                                    </div>
+                                                </div>
+                                                <div class="file_icons col-2 col-xl-3">
+                                                    <a href="#" title="отправить на почту" data-toggle="modal" data-target="#exampleModalCenterMail"><i class="material-icons">email</i></a>
+                                                    <a href="#" title="скачать"><i class="material-icons">file_download</i></a>
+                                                </div>
+                                            </div>
+                                            <div class="file d-flex">
+                                                <div class="col-2 col">
+                                                    <img src="img/harek.jpg" alt="">
+                                                </div>
+                                                <div class="file_info col-8 col-xl-8">
+                                                    <span class="file_name">Дипломная работа - история развивающихся стран.</span>
+                                                    <div class="file_status d-flex">
+                                                        <span>10.10.2017 16:30</span>
+                                                        <span>101010кб</span>
+                                                    </div>
+                                                </div>
+                                                <div class="file_icons col-2 col-xl-3">
+                                                    <a href="#" title="отправить на почту" data-toggle="modal" data-target="#exampleModalCenterMail"><i class="material-icons">email</i></a>
+                                                    <a href="#" title="скачать"><i class="material-icons">file_download</i></a>
+                                                </div>
+                                            </div>
+                                            <div class="file d-flex">
+                                                <div class="col-2 col">
+                                                    <img src="img/harek.jpg" alt="">
+                                                </div>
+                                                <div class="file_info col-8 col-xl-8">
+                                                    <span class="file_name">Дипломная работа - история развивающихся стран.</span>
+                                                    <div class="file_status d-flex">
+                                                        <span>10.10.2017 16:30</span>
+                                                        <span>101010кб</span>
+                                                    </div>
+                                                </div>
+                                                <div class="file_icons col-2 col-xl-3">
+                                                    <a href="#" title="отправить на почту" data-toggle="modal" data-target="#exampleModalCenterMail"><i class="material-icons">email</i></a>
+                                                    <a href="#" title="скачать"><i class="material-icons">file_download</i></a>
+                                                </div>
+                                            </div>
+                                            <div class="file d-flex">
+                                                <div class="col-2 col">
+                                                    <img src="img/harek.jpg" alt="">
+                                                </div>
+                                                <div class="file_info col-8 col-xl-8">
+                                                    <span class="file_name">Дипломная работа - история развивающихся стран.</span>
+                                                    <div class="file_status d-flex">
+                                                        <span>10.10.2017 16:30</span>
+                                                        <span>101010кб</span>
+                                                    </div>
+                                                </div>
+                                                <div class="file_icons col-2 col-xl-3">
+                                                    <a href="#" title="отправить на почту" data-toggle="modal" data-target="#exampleModalCenterMail"><i class="material-icons">email</i></a>
+                                                    <a href="#" title="скачать"><i class="material-icons">file_download</i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="close"><i class="material-icons">close</i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /app -->
+                        <!-- app -->
+                        <div class="application row">
+                            <div class="application_desc col-xl-12 bg-white has-shadow">
+                                <div class="app_nav row">
+                                    <div class="col-xl-4 col-sm-6">
+                                        <div class="app_status app_status_inwork item d-flex">
+                                            <div class="icon">
+                                                <i class="icon-padnote"></i>
+                                            </div>
+                                            <div class="title">
+                                                <p>Выполняется автором</p>
+                                                <p>№ 123456 <span>(от 10.10.2017г)</span></p>
+                                                <div class="progress">
+                                                    <div role="progressbar" style="width: 25%; height: 4px;" aria-valuenow="{#val.value}" aria-valuemin="0" aria-valuemax="100" class="progress-bar"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-sm-6">
+                                        <div class="item d-flex">
+                                            <div class="app_mail">
+                                                <a href="#" class="d-flex align-items-center">
+                                                    <div class="icon bg-red">
+                                                        <i class="fa fa-envelope-o"></i>
+                                                        <span class="badge bg-orange">10</span>
+                                                    </div>
+                                                    <div class="title">
+                                                        <p>Новое</p>
+                                                        <p>сообщение в чате</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-sm-6">
+                                        <div class="item d-flex">
+                                            <div class="app_chek">
+                                                <a href="#" class="d-flex align-items-center">
+                                                    <div class="icon bg-green">
+                                                        <i class="icon-bill"></i>
+                                                    </div>
+                                                    <div class="title">
+                                                        <p>Файлы заказа</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row app_inset">
+                                    <div class="modal_price d-flex">
+                                        <div class="col-xl-6">
+                                            <div class="price_item">
+                                                <div class="price_item-head">
+                                                    <span>700₽</span>
+                                                </div>
+                                                <div class="price_item-body ">
+                                                    <h4>Предоплата 50%</h4>
+                                                    <hr>
+                                                    <div class="i-checks justify-content-center">
+                                                        <input id="checkboxCustom2" type="checkbox" value="" checked="" class="checkbox-template">
+                                                        <label for="checkboxCustom2">Использовать бонусы 300 из 300</label>
+                                                    </div>
+                                                    <a href="#" class="btn-price">Оплатить</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6">
+                                            <div class="price_item">
+                                                <div class="price_item-head">
+                                                    <span>1400₽</span>
+                                                </div>
+                                                <div class="price_item-body">
+                                                    <h4>Оплатить 100%</h4>
+                                                    <hr>
+                                                    <div class="i-checks  justify-content-center">
+                                                        <input id="checkboxCustom3" type="checkbox" value="" checked="" class="checkbox-template">
+                                                        <label for="checkboxCustom3">Использовать бонусы</label>
+                                                    </div>
+                                                    <a href="#" class="btn-price">Оплатить</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="close"><i class="material-icons">close</i></a>
+                                        <p class="offer_text">Нажимая оплатить вы соглашаетесь с <a href="offer.html">договором оферты</a></p>
+                                    </div>
+                                    <div class="app_left col-xl-8">
+                                        <div class="work_info">
+                                            <a href="app_in.html" class="work_theme h2">Дипломная работа<span>История развивающихся стран.</span></a>
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <!-- <p class="work_subj">Предмет:<span>История</span></p> -->
+                                                <p>Шрифт:<span>14pt, Полуторный</span></p>
+                                                <p>Кол-во страниц:<span>300</span></p>
+                                                <p>% Антиплагиата:<span>70%</span></p>
+                                                <p>Срок выполнения:<span>40 дней</span> </p>
+                                            </div>
+                                        </div>
+                                        <div class="app_text">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi cumque mollitia dolor quidem. Totam tenetur, deleniti iure, porro labore quidem autem sint. Quod consequatur illo, eum non nam tempore perspiciatis delectus velit, adipisci soluta at esse suntquidem. Totam tenetur, deleniti iure, porro labore quidem autem sint. Quod consequatur illo, eum non nam tempore perspiciatis delectus velit, adipisci soluta at esse sunt
+                                            </p>
+                                        </div>
+                                        <a href="#" class="app_arrow">
+                                            <span>развернуть</span>
+                                            <i class="material-icons">keyboard_arrow_up</i>
+                                        </a>
+                                        <div class="app_text_fade"></div>
+                                    </div>
+                                    <div class="app_right col-xl-4">
+                                        <span class="price_bonus_text">Этот заказ можно оплатить бонусами!</span>
+                                        <div class="app_right--inset discount_block">
+                                            <div class="discount">
+                                                <!-- <i class="material-icons">payment</i> -->
+                                                <h4>Скидка 5%</h4>
+                                                <p>Цена:
+                                                    <span class="dis_new">700₽</span>
+                                                    <span class="dis_old">950₽</span>
+                                                </p>
+                                            </div>
+                                            <a href="#" class="btn btn-price modal_price_btn">Перейти к оплате</a>
+                                        </div>
+                                    </div>
+                                    <div class="modal_files d-flex">
+                                        <div class="files_box manager_files col-xl-6">
+                                            <h5>Файлы менеджера</h5>
+                                            <div class="file d-flex">
+                                                <div class="col">
+                                                    <img src="img/harek.jpg" alt="">
+                                                </div>
+                                                <div class="file_info col-xl-8">
+                                                    <span class="file_name">Дипломная работа - история развивающихся стран.</span>
+                                                    <div class="file_status d-flex">
+                                                        <span>10.10.2017 16:30</span>
+                                                        <span>101010кб</span>
+                                                    </div>
+                                                </div>
+                                                <div class="file_icons col-xl-3">
+                                                    <a href="#" title="отправить на почту"><i class="material-icons">email</i></a>
+                                                    <a href="#" title="скачать"><i class="material-icons">file_download</i></a>
+                                                </div>
+                                            </div>
+                                            <div class="file d-flex">
+                                                <div class="col">
+                                                    <img src="img/harek.jpg" alt="">
+                                                </div>
+                                                <div class="file_info col-xl-8">
+                                                    <span class="file_name">Дипломная работа - история развивающихся стран.</span>
+                                                    <div class="file_status d-flex">
+                                                        <span>10.10.2017 16:30</span>
+                                                        <span>101010кб</span>
+                                                    </div>
+                                                </div>
+                                                <div class="file_icons col-xl-3">
+                                                    <a href="#" title="отправить на почту"><i class="material-icons">email</i></a>
+                                                    <a href="#" title="скачать"><i class="material-icons">file_download</i></a>
+                                                </div>
+                                            </div>
+                                            <div class="file d-flex">
+                                                <div class="col">
+                                                    <img src="img/harek.jpg" alt="">
+                                                </div>
+                                                <div class="file_info col-xl-8">
+                                                    <span class="file_name">Дипломная работа - история развивающихся стран.</span>
+                                                    <div class="file_status d-flex">
+                                                        <span>10.10.2017 16:30</span>
+                                                        <span>101010кб</span>
+                                                    </div>
+                                                </div>
+                                                <div class="file_icons col-xl-3">
+                                                    <a href="#" title="отправить на почту"><i class="material-icons">email</i></a>
+                                                    <a href="#" title="скачать"><i class="material-icons">file_download</i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="files_box client_files col-xl-6">
+                                            <h5>Файлы клиента</h5>
+                                            <div class="file d-flex">
+                                                <div class="col">
+                                                    <img src="img/harek.jpg" alt="">
+                                                </div>
+                                                <div class="file_info col-xl-8">
+                                                    <span class="file_name">Дипломная работа - история развивающихся стран.</span>
+                                                    <div class="file_status d-flex">
+                                                        <span>10.10.2017 16:30</span>
+                                                        <span>101010кб</span>
+                                                    </div>
+                                                </div>
+                                                <div class="file_icons col-xl-3">
+                                                    <a href="#" title="отправить на почту"><i class="material-icons">email</i></a>
+                                                    <a href="#" title="скачать"><i class="material-icons">file_download</i></a>
+                                                </div>
+                                            </div>
+                                            <div class="file d-flex">
+                                                <div class="col">
+                                                    <img src="img/harek.jpg" alt="">
+                                                </div>
+                                                <div class="file_info col-xl-8">
+                                                    <span class="file_name">Дипломная работа - история развивающихся стран.</span>
+                                                    <div class="file_status d-flex">
+                                                        <span>10.10.2017 16:30</span>
+                                                        <span>101010кб</span>
+                                                    </div>
+                                                </div>
+                                                <div class="file_icons col-xl-3">
+                                                    <a href="#" title="отправить на почту"><i class="material-icons">email</i></a>
+                                                    <a href="#" title="скачать"><i class="material-icons">file_download</i></a>
+                                                </div>
+                                            </div>
+                                            <div class="file d-flex">
+                                                <div class="col">
+                                                    <img src="img/harek.jpg" alt="">
+                                                </div>
+                                                <div class="file_info col-xl-8">
+                                                    <span class="file_name">Дипломная работа - история развивающихся стран.</span>
+                                                    <div class="file_status d-flex">
+                                                        <span>10.10.2017 16:30</span>
+                                                        <span>101010кб</span>
+                                                    </div>
+                                                </div>
+                                                <div class="file_icons col-xl-3">
+                                                    <a href="#" title="отправить на почту"><i class="material-icons">email</i></a>
+                                                    <a href="#" title="скачать"><i class="material-icons">file_download</i></a>
+                                                </div>
+                                            </div>
+                                            <div class="file d-flex">
+                                                <div class="col">
+                                                    <img src="img/harek.jpg" alt="">
+                                                </div>
+                                                <div class="file_info col-xl-8">
+                                                    <span class="file_name">Дипломная работа - история развивающихся стран.</span>
+                                                    <div class="file_status d-flex">
+                                                        <span>10.10.2017 16:30</span>
+                                                        <span>101010кб</span>
+                                                    </div>
+                                                </div>
+                                                <div class="file_icons col-xl-3">
+                                                    <a href="#" title="отправить на почту"><i class="material-icons">email</i></a>
+                                                    <a href="#" title="скачать"><i class="material-icons">file_download</i></a>
+                                                </div>
+                                            </div>
+                                            <div class="file d-flex">
+                                                <div class="col">
+                                                    <img src="img/harek.jpg" alt="">
+                                                </div>
+                                                <div class="file_info col-xl-8">
+                                                    <span class="file_name">Дипломная работа - история развивающихся стран.</span>
+                                                    <div class="file_status d-flex">
+                                                        <span>10.10.2017 16:30</span>
+                                                        <span>101010кб</span>
+                                                    </div>
+                                                </div>
+                                                <div class="file_icons col-xl-3">
+                                                    <a href="#" title="отправить на почту"><i class="material-icons">email</i></a>
+                                                    <a href="#" title="скачать"><i class="material-icons">file_download</i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="close"><i class="material-icons">close</i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /app -->
+                        <!-- app -->
+                        <div class="application row">
+                            <div class="application_desc col-xl-12 bg-white has-shadow">
+                                <div class="app_nav row =">
+                                    <div class="col-xl-4 col-sm-6">
+                                        <div class="app_status app_status_fail item d-flex">
+                                            <div class="icon">
+                                                <i class="icon-padnote"></i>
+                                            </div>
+                                            <div class="title">
+                                                <p>Отказ</p>
+                                                <p>№ 123456 <span>(от 10.10.2017г)</span></p>
+                                                <div class="progress">
+                                                    <div role="progressbar" style="width: 25%; height: 4px;" aria-valuenow="{#val.value}" aria-valuemin="0" aria-valuemax="100" class="progress-bar"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-sm-6">
+                                        <div class="item d-flex">
+                                            <div class="app_mail">
+                                                <a href="#" class="d-flex align-items-center">
+                                                    <div class="icon bg-red">
+                                                        <i class="fa fa-envelope-o"></i>
+                                                        <span class="badge bg-orange">10</span>
+                                                    </div>
+                                                    <div class="title">
+                                                        <p>Новое</p>
+                                                        <p>сообщение в чате</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-sm-6">
+                                        <div class="item d-flex">
+                                            <div class="app_chek">
+                                                <a href="#" class="d-flex align-items-center">
+                                                    <div class="icon bg-green">
+                                                        <i class="icon-bill"></i>
+                                                    </div>
+                                                    <div class="title">
+                                                        <p>Скачать</p>
+                                                        <p>готовую работу</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="app_left col-xl-8">
+                                        <div class="work_info">
+                                            <a href="app_in.html" class="work_theme h2">Дипломная работа<span>История развивающихся стран.</span></a>
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <!-- <p class="work_subj">Предмет:<span>История</span></p> -->
+                                                <p>Шрифт:<span>14pt, Полуторный</span></p>
+                                                <p>Кол-во страниц:<span>300</span></p>
+                                                <p>% Антиплагиата:<span>70%</span></p>
+                                                <p>Срок выполнения:<span>40 дней</span> </p>
+                                            </div>
+                                        </div>
+                                        <div class="app_text">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi cumque mollitia dolor quidem. Totam tenetur, deleniti iure, porro labore quidem autem sint. Quod consequatur illo, eum non nam tempore perspiciatis delectus velit, adipisci soluta at esse suntquidem. Totam tenetur, deleniti iure, porro labore quidem autem sint. Quod consequatur illo, eum non nam tempore perspiciatis delectus velit, adipisci soluta at esse sunt
+                                            </p>
+                                        </div>
+                                        <a href="#" class="app_arrow">
+                                            <span>развернуть</span>
+                                            <i class="material-icons">keyboard_arrow_up</i>
+                                        </a>
+                                        <div class="app_text_fade"></div>
+                                    </div>
+                                    <div class="app_right col-xl-4">
+                                        <div class="app_right--inset review_not">
+                                            <i class="material-icons">assignment</i>
+                                            <p>
+                                                Оставьте свой отзыв.
+                                            </p>
+                                            <a href="#" class="btn btn-price" data-toggle="modal" data-target="#exampleModalCenter">Оставить отзыв</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /app -->
+                        <!-- app -->
+                        <div class="application row">
+                            <div class="application_desc col-xl-12 bg-white has-shadow">
+                                <div class="app_nav row align-items-center">
+                                    <div class="col-xl-4 col-sm-6">
+                                        <div class="app_status app_status_new item d-flex">
+                                            <div class="icon">
+                                                <i class="icon-padnote"></i>
+                                            </div>
+                                            <div class="title">
+                                                <p>Новый</p>
+                                                <p>№ 123456 <span>(от 10.10.2017г)</span></p>
+                                                <div class="progress">
+                                                    <div role="progressbar" style="width: 25%; height: 4px;" aria-valuenow="{#val.value}" aria-valuemin="0" aria-valuemax="100" class="progress-bar"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-sm-6">
+                                        <div class="item d-flex">
+                                            <div class="app_mail">
+                                                <a href="#" class="d-flex align-items-center">
+                                                    <div class="icon bg-red">
+                                                        <i class="fa fa-envelope-o"></i>
+                                                        <span class="badge bg-orange">10</span>
+                                                    </div>
+                                                    <div class="title">
+                                                        <p>Новое</p>
+                                                        <p>сообщение в чате</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-sm-6">
+                                        <div class="item d-flex">
+                                            <div class="app_chek">
+                                                <a href="#" class="d-flex align-items-center">
+                                                    <div class="icon bg-green">
+                                                        <i class="icon-bill"></i>
+                                                    </div>
+                                                    <div class="title">
+                                                        <p>Файлы заказа </p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="app_left col-xl-8">
+                                        <div class="work_info">
+                                            <a href="app_in.html" class="work_theme h2">Дипломная работа<span>История развивающихся стран.</span></a>
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <!-- <p class="work_subj">Предмет:<span>История</span></p> -->
+                                                <p>Шрифт:<span>14pt, Полуторный</span></p>
+                                                <p>Кол-во страниц:<span>300</span></p>
+                                                <p>% Антиплагиата:<span>70%</span></p>
+                                                <p>Срок выполнения:<span>40 дней</span> </p>
+                                            </div>
+                                        </div>
+                                        <div class="app_text">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi cumque mollitia dolor quidem. Totam tenetur, deleniti iure, porro labore quidem autem sint. Quod consequatur illo, eum non nam tempore perspiciatis delectus velit, adipisci soluta at esse suntquidem. Totam tenetur, deleniti iure, porro labore quidem autem sint. Quod consequatur illo, eum non nam tempore perspiciatis delectus velit, adipisci soluta at esse sunt
+                                            </p>
+                                        </div>
+                                        <a href="#" class="app_arrow">
+                                            <span>развернуть</span>
+                                            <i class="material-icons">keyboard_arrow_up</i>
+                                        </a>
+                                        <div class="app_text_fade"></div>
+                                    </div>
+                                    <div class="app_right col-xl-4">
+                                        <div class="app_right--inset review_not">
+                                            <i class="material-icons">assignment</i>
+                                            <p>
+                                                Оставьте свой отзыв.
+                                            </p>
+                                            <a href="#" class="btn btn-price">Оставить отзыв</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /app -->
+                        <!-- app -->
+                        <div class="application row">
+                            <div class="application_desc col-xl-12 bg-white has-shadow">
+                                <div class="app_nav row">
+                                    <div class="col-xl-4 col-sm-6">
+                                        <div class="app_status app_status_new item d-flex">
+                                            <div class="icon">
+                                                <i class="icon-padnote"></i>
+                                            </div>
+                                            <div class="title">
+                                                <p>Новый</p>
+                                                <p>№ 123456 <span>(от 10.10.2017г)</span></p>
+                                                <div class="progress">
+                                                    <div role="progressbar" style="width: 25%; height: 4px;" aria-valuenow="{#val.value}" aria-valuemin="0" aria-valuemax="100" class="progress-bar"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-sm-6">
+                                        <div class="item d-flex">
+                                            <div class="app_mail">
+                                                <a href="#" class="d-flex align-items-center">
+                                                    <div class="icon bg-red">
+                                                        <i class="fa fa-envelope-o"></i>
+                                                        <span class="badge bg-orange">10</span>
+                                                    </div>
+                                                    <div class="title">
+                                                        <p>Новое</p>
+                                                        <p>сообщение в чате</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-sm-6">
+                                        <div class="item d-flex">
+                                            <div class="app_chek">
+                                                <a href="#" class="d-flex align-items-center">
+                                                    <div class="icon bg-green">
+                                                        <i class="icon-bill"></i>
+                                                    </div>
+                                                    <div class="title">
+                                                        <p>Файлы заказа </p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="app_left col-xl-8">
+                                        <div class="work_info">
+                                            <a href="app_in.html" class="work_theme h2">Дипломная работа<span>История развивающихся стран.</span></a>
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <!-- <p class="work_subj">Предмет:<span>История</span></p> -->
+                                                <p>Шрифт:<span>14pt, Полуторный</span></p>
+                                                <p>Кол-во страниц:<span>300</span></p>
+                                                <p>% Антиплагиата:<span>70%</span></p>
+                                                <p>Срок выполнения:<span>40 дней</span> </p>
+                                            </div>
+                                        </div>
+                                        <div class="app_text">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi cumque mollitia dolor quidem. Totam tenetur, deleniti iure, porro labore quidem autem sint. Quod consequatur illo, eum non nam tempore perspiciatis delectus velit, adipisci soluta at esse suntquidem. Totam tenetur, deleniti iure, porro labore quidem autem sint. Quod consequatur illo, eum non nam tempore perspiciatis delectus velit, adipisci soluta at esse sunt
+                                            </p>
+                                        </div>
+                                        <a href="#" class="app_arrow">
+                                            <span>развернуть</span>
+                                            <i class="material-icons">keyboard_arrow_up</i>
+                                        </a>
+                                        <div class="app_text_fade"></div>
+                                    </div>
+                                    <div class="app_right col-xl-4">
+                                        <div class="app_right--inset review_active">
+                                            <i class="material-icons">assignment_turned_in</i>
+                                            <p>
+                                                Благодарим.
+                                                <br> За оставленный отзыв!
+                                            </p>
+                                            <a href="#">посмотреть отзыв</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /app -->
+                        <button id="snackbarid">bfgfg</button>
+                    </div>
+                </div>
+                <div class="banner_block col-xl-3">
+                    <img src="img/cat.jpg" alt="Баннер" style="height: 350px;">
+                </div>
+                <footer>
+                    <div class="container-fluid">
+                        <div class="d-flex align-items-center">
+                            <div class="copy d-flex">
+                                <p>2017 © Студсервис
+                                    <br> Все права защищены.</p>
+                                <a href="https://studservis.ru/politika-konfidencialnosti" target="_blank" rel="nofollow">Политика конфиденциальности</a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <!-- Modal Review  -->
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title" id="exampleModalLongTitle">Оставить отзыв</h4>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <label class="form-control-label">Оставьте свой отзыв о работе</label>
+                                    <textarea class="form-control"></textarea>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                                <button type="button" class="btn btn-primary">Сохранить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal mail -->
+                <div class="modal fade" id="exampleModalCenterMail" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title" id="exampleModalLongTitle">Отправить файл</h4>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body modal-body--mail">
+                                <p>Выберите почту на которую нужно отправить файл.</p>
+                                <input type="text" value="antemionoy@gmail.com" class="form-control">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                                <button type="button" class="btn btn-primary">Отправить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul aria-labelledby="notifications" class="dropdown-menu">
+                <li>
+                    <a rel="nofollow" href="profile.html" class="dropdown-item d-flex">Профиль</a>
+                </li>
+                <li>
+                    <a rel="nofollow" href="login.html" class="dropdown-item d-flex">Выйти</a>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="vendor/popper.js/umd/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"></script>
+    <script src="vendor/jquery-validation/jquery.validate.min.js"></script>
+    <script src="js/mask-input.js"></script>
+    <script src="js/textarea_plugin.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/dropzone.js"></script>
+    <script src="js/perfect-scrollbar.jquery.min.js"></script>
+    <script src="js/snackbar.js"></script>
+    <script src="js/front.js"></script>
+</body>
+
+</html>
